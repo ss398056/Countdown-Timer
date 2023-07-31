@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .countdown {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    font-size: 48px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .textfield{
+    width : 60px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+  .setbtn{
+    height: 50px;
+  }
+
+  .setCountdown{
+    margin-bottom: 200px;
+  }
